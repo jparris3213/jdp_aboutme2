@@ -1,0 +1,34 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-color: forestgreen;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid peachpuff;
+
+
+}
+
+.header-links{
+    color:white;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+
+#portfoliopic{
+    height: 400px;
+    width: 600px;
+    outline-color: rgb(114, 54, 2);
+    outline-style: solid;
+    outline-width: 10px;
+}
+
+.tophalfbody{
+    text-align: center;
+    align-items: center;
+}
