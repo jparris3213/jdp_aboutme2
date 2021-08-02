@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(0,45,92);
+    background-color: rgb(255, 255, 255);
     color: rgb(245,233,226);
 }
 p {
@@ -13,6 +13,9 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
+    border-top: 5px solid rgb(46,134,171);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     border-bottom: 5px solid rgb(46,134,171);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -31,10 +34,6 @@ p {
 #portfoliopic{
     height: 400px;
     width: 600px;
-    /*outline-color:rgb(65,65,65);
-    outline-style: solid;
-    outline-width: 10px;
-    border-radius: 25px;--*/
     border-top: 5px solid rgb(46,134,171);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -60,13 +59,14 @@ p {
     background-color: rgb(0,45,92);
     text-align: center;
     align-items: center;
-    height: 175px;
+    /*height: 175px;*/
     border-top: 5px solid rgb(46,134,171);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom: 5px solid rgb(46,134,171);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    margin-top: 10px;
 
 }
 #contactinput{
@@ -80,6 +80,7 @@ p {
    border-bottom-left-radius: 25px;
    border-bottom-right-radius: 25px;
    margin: 0 auto;
+   text-align: center;
    
 }
 .footer{
@@ -93,10 +94,10 @@ p {
     border-bottom: 5px solid rgb(46,134,171);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    
+    margin: 5px;
 }
 .button{
-    margin: 0;
+    margin: 5px auto;
     background-color: rgb(212, 77, 92);
     text-align: right;
     padding-top: 3px;
