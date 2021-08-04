@@ -19,8 +19,6 @@ p {
     border-bottom: 5px solid rgb(46,134,171);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-
-
 }
 
 .header-links{
@@ -41,7 +39,6 @@ p {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-
 .centerthird{
     margin: 10px 0px auto;
     background-color: rgb(0,45,92);
