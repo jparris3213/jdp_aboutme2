@@ -6,14 +6,22 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(56, 56, 56);
-    color: rgb(245,233,226);
+    background-color: rgb(51,51,51);
+    color: hex(#e3b5a4);
+    justify-content: center;
 }
 p {
     padding: 5px;
+    color: white;
 }
-.header{
-    margin: 0;
+
+h2{
+    color: white;
+}
+nav{
+    display:flex;
+    justify-content: flex-end;
+    height: 3%;
     background-color: rgb(0,45,92);
     text-align: right;
     padding-top: 10px;
@@ -25,28 +33,20 @@ p {
     border-bottom: 5px solid rgb(46,134,171);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-}
-
-.header-links{
     color:rgb(227,181,164);
-    padding: 5px;
+
+}
+nav a{
+    color:rgb(227, 181, 164);
     text-decoration: none;
-    
+    padding: 0px 3px;
 }
 
-
-#portfoliopic{
-    height: 400px;
-    width: 600px;
-    border-top: 5px solid rgb(46,134,171);
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom: 5px solid rgb(46,134,171);
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-}
-.centerthird{
+.contentthird{
+    display:flex;
     flex-grow: 1;
+    flex-direction: column;
+    height: 55%;
     margin: 10px 0px auto;
     background-color: rgb(0,45,92);
     text-align: center;
@@ -57,20 +57,27 @@ p {
     border-bottom: 5px solid rgb(46,134,171);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    justify-content: center;
 }
 
-.bottomthird{
-    background-color: rgb(0,45,92);
-    text-align: center;
-    align-items: center;
-    /*height: 175px;*/
+
+.card{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
     border-top: 5px solid rgb(46,134,171);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom: 5px solid rgb(46,134,171);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    margin-top: 10px;
+    justify-content: center;
+}
+
+
+.action{
+    height: 25%;
 
 }
 #contactinput{
