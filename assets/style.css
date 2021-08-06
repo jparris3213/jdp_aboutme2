@@ -61,7 +61,7 @@ nav a:hover{
     border: 1px rgb(227,181,164) solid;
     border-top-left-radius: 25%;
     border-top-right-radius: 25%;
-
+    border-bottom-right-radius: 25%;
 }
 nav a[data-descr]:hover::after,
 nav a[data-descr]:focus::after {
