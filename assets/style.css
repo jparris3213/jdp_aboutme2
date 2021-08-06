@@ -1,5 +1,7 @@
 html,body{
-    height: 100%
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
 }
 
 body{
@@ -21,16 +23,14 @@ h2{
 nav{
     display:flex;
     justify-content: flex-end;
-    height: 3%;
+    height: 5%;
     background-color: rgb(0,45,92);
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    border-top: 5px solid rgb(46,134,171);
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom: 5px solid rgb(46,134,171);
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-bottom: 10px solid rgb(46,134,171);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     color:rgb(227,181,164);
@@ -39,28 +39,45 @@ nav{
 nav a{
     color:rgb(227, 181, 164);
     text-decoration: none;
-    padding: 0px 3px;
+    padding: 2px 2px;
     position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
 }
 
+nav a::before,
+nav a::after{
+    content:"|";
+    font-size: medium;
+    color: rgb(46,134,171);
+    padding: 3px;
+}
+nav a:hover{
+    background-color:rgb(46,134,171);
+    color:whitesmoke;
+    text-align: center;
+    align-items: center;
+    padding-left: 1px;
+    border: 1px rgb(227,181,164) solid;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+
+}
 nav a[data-descr]:hover::after,
 nav a[data-descr]:focus::after {
     content: attr(data-descr);
     position: absolute;
-    left: 0px;
+    right: 25%;
     top: 24px;
     min-width: 200px;
     border: 1px #aaaaaa solid;
     border-radius: 10px;
-    background-color: #13293d;
+    background-color: rgb(46,134,171);
     padding: 5px;
     color: #fff;
     font-size: 14px;
     z-index: 1;
-  }}
-nav a:hover{
-    color:rgb(46,134,171);
-}
+  }
 .contentthird{
     display:flex;
     flex-grow: 1;
