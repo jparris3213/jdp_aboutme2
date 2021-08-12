@@ -78,6 +78,7 @@ nav a[data-descr]:focus::after {
     font-size: 14px;
     z-index: 1;
   }
+
 .contentthird{
     display:flex;
     flex-grow: 1;
@@ -97,7 +98,9 @@ nav a[data-descr]:focus::after {
 }
 
 
+
 .card{
+    animation: fadeIn 5s;
     display: flex;
     width: 400px;
     height: 400px;
@@ -109,6 +112,13 @@ nav a[data-descr]:focus::after {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     justify-content: center;
+    transition: ;
+}
+
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 100;}
 }
 
 
